@@ -3,23 +3,22 @@
 layout: home
 
 hero:
-  name: "Live-wiki"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "首頁"
+  tagline: "好想到日本看LIVE！好想參加現地活動！\n你是否曾經有過這種念頭，但不知道該從何準備呢？\n在這裡我們為你準備了所有抽選所需要的準備事項、抽選流程、付款方式、取票流程及其他需要注意的事項，希望能幫助你順利抽到並參加現地活動。"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 抽票的準備事項
+      link: /what-you-need-to-do/your-name
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 網站遷移中
+    details: 如有興趣協助編輯，請至 Discord 索取編輯權限。
+  - title: 網站遷移中
+    details: 如有興趣協助編輯，請至 Discord 索取編輯權限。
+  - title: 網站遷移中
+    details: 如有興趣協助編輯，請至 Discord 索取編輯權限。
 ---
 

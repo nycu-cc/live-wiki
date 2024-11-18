@@ -13,7 +13,17 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '一、抽票的準備事項',
+        items: [
+          { text: '1. 你的名字', link: '/what-you-need-to-do/your-name' },
+          { text: '2. 台灣地址', link: '/what-you-need-to-do/taiwan-address' },
+          { text: '3. 日本地址', link: '/what-you-need-to-do/japan-address' },
+          { text: '4. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
+          { text: '5. 台灣信用卡', link: '/what-you-need-to-do/taiwan-credit-card' }
+        ]
+      },
+      {
+        text: 'Examples2',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
