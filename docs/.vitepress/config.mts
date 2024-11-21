@@ -6,14 +6,18 @@ export default defineConfig({
   description: "Overseas concert ticketing guide.",
   lastUpdated: true, 
   head: [
+    // logo需要更改
     ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://vitepress.dev/vitepress-logo-mini.svg' }],
     ['link', { rel: 'icon', type: 'image/png', href: 'https://vitepress.dev/vitepress-logo-mini.svg' }],
-    ['meta', { name: 'theme-color', content: '#5f67ee' }],
+    ['meta', { name: 'theme-color', content: '#226699' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh-tw' }],
+    // 需要修改網站名稱、說明及縮圖
     ['meta', { property: 'og:title', content: 'Live-wiki (仮)' }],
+    ['meta', { property: 'og:description', content: 'Overseas concert ticketing guide.' }],
     ['meta', { property: 'og:site_name', content: 'canaria.cc' }],
     ['meta', { property: 'og:image', content: 'https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode-Thick.png' }],
+    ['meta', { property: 'og:image:type', content: 'image/png' }],
     ['meta', { property: 'og:url', content: 'https://live.canaria.cc/' }],
     //['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': '' }]
   ],
