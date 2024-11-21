@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Live-wiki",
-  description: "Overseas concert ticketing guide",
+  title: "Live-wiki (仮)",
+  description: "Overseas concert ticketing guide.",
   lastUpdated: true, 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
 
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首頁', link: '/' },
       {
         text: "抽票的準備事項",
         items: [
@@ -31,12 +31,12 @@ export default defineConfig({
           { text: 'e+（イープラス）', link: '/ticketing-site/eplus' },
           { text: 'LAWSON TICKET（ローソンチケット）', link: '/ticketing-site/lawson-ticket' },
           { text: 'TICKET PIA（チケットぴあ）', link: '/ticketing-site/ticket-pia' },
-          { text: 'rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
+          { text: 'Rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
           { text: 'ASOBI TICKET', link: '/ticketing-site/asobi-ticket' }
         ],
         activeMatch: "/ticketing-site/",
       },
-      { text: 'Examples2', link: '/wiki/markdown-examples' }
+      { text: '協助編輯', link: '/wiki/markdown-examples' }
     ],
 
     sidebar: [
@@ -59,7 +59,7 @@ export default defineConfig({
           { text: 'e+（イープラス）', link: '/ticketing-site/eplus' },
           { text: 'LAWSON TICKET（ローソンチケット）', link: '/ticketing-site/lawson-ticket' },
           { text: 'TICKET PIA（チケットぴあ）', link: '/ticketing-site/ticket-pia' },
-          { text: 'rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
+          { text: 'Rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
           { text: 'ASOBI TICKET', link: '/ticketing-site/asobi-ticket' }
         ]
       },
