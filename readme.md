@@ -25,3 +25,34 @@ npm run dev
 順利的話，即可在 `localhost:5173` 看到網站，進行編輯。
 
 往後執行只需 `npm run dev`
+
+## 檔案結構 | File Structure
+
+本專案的檔案結構如下：
+
+```
+.
+├── docs
+│         ├── .vitepress
+│         │         └── config.mts
+│         ├── first-time
+│         │
+│         ├── public
+│         │         ├── json
+│         │         └── pic
+│         ├── ticketing-site
+│         │
+│         ├── what-you-need-to-do
+│         │
+│         ├── wiki
+│         │
+│         ├── about.md
+│         │
+│         └── index.md
+│ 
+├── node_modules
+│ 
+├── template
+│ 
+└── tools
+```

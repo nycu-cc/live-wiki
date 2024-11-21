@@ -3,12 +3,40 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Live-wiki",
-  description: "A VitePress Site",
+  description: "Overseas concert ticketing guide",
+  lastUpdated: true, 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.svg',
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/wiki/markdown-examples' }
+      {
+        text: "抽票的準備事項",
+        items: [
+          { text: '1. 你的名字', link: '/what-you-need-to-do/your-name' },
+          { text: '2. 台灣地址', link: '/what-you-need-to-do/taiwan-address' },
+          { text: '3. 日本地址', link: '/what-you-need-to-do/japan-address' },
+          { text: '4. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
+          { text: '5. 台灣信用卡', link: '/what-you-need-to-do/taiwan-credit-card' },
+          { text: '6. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
+          { text: '7. 日本手機帳號', link: '/what-you-need-to-do/japan-phone-account' },
+          { text: '8. 其他', link: '/what-you-need-to-do/others' }
+        ],
+        activeMatch: "/what-you-need-to-do/",
+      },
+      {
+        text: "常見售票網站",
+        items: [
+          { text: 'e+（イープラス）', link: '/ticketing-site/eplus' },
+          { text: 'LAWSON TICKET（ローソンチケット）', link: '/ticketing-site/lawson-ticket' },
+          { text: 'TICKET PIA（チケットぴあ）', link: '/ticketing-site/ticket-pia' },
+          { text: 'rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
+          { text: 'ASOBI TICKET', link: '/ticketing-site/asobi-ticket' }
+        ],
+        activeMatch: "/ticketing-site/",
+      },
+      { text: 'Examples2', link: '/wiki/markdown-examples' }
     ],
 
     sidebar: [
@@ -26,7 +54,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '二、抽票網站相關',
+        text: '二、售票網站相關',
         items: [
           { text: 'e+（イープラス）', link: '/ticketing-site/eplus' },
           { text: 'LAWSON TICKET（ローソンチケット）', link: '/ticketing-site/lawson-ticket' },
