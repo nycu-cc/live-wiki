@@ -26,7 +26,7 @@ npm run dev
 
 往後執行只需 `npm run dev`
 
-## 檔案結構 | File Structure
+## 檔案結構
 
 本專案的檔案結構如下：
 
@@ -34,6 +34,7 @@ npm run dev
 .
 ├── docs
 │         ├── .vitepress
+│         │         ├── theme
 │         │         └── config.mts
 │         ├── first-time
 │         │

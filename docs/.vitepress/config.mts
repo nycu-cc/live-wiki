@@ -7,7 +7,8 @@ export default defineConfig({
   lastUpdated: true, 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.svg',
+    // logo需要更改
+    logo: 'https://vitepress.dev/vitepress-logo-mini.svg',
 
     nav: [
       { text: '首頁', link: '/' },
@@ -67,7 +68,9 @@ export default defineConfig({
         text: '三、常見問題',
         items: [
           { text: '抽選相關名詞', link: '/wiki/lottery' },
-          { text: 'Live場地', link: '/wiki/dome' }
+          { text: 'Live場地', link: '/wiki/dome' },
+          { text: 'Markdown Examples', link: '/wiki/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/wiki/api-examples' }
         ]
       },
       {
@@ -78,19 +81,30 @@ export default defineConfig({
           { text: '3. 其他準備事項', link: '/first-time/others' },
           { text: '4. 行李檢核', link: '/first-time/baggage' },
         ]
-      },
-      {
-        text: 'Examples2',
-        items: [
-          { text: 'Markdown Examples', link: '/wiki/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/wiki/api-examples' }
-        ]
       }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/canaria3406/live-wiki' },
       { icon: 'discord', link: 'https://discord.gg/QBwjpHcMyw' }
-    ]
+    ],
+
+    footer: {
+      // message: 'Released under the MIT License.',
+      copyright: 'canaria © 2024'
+    },
+
+    editLink: {
+      pattern: 'https://github.com/canaria3406/live-wiki/tree/main/docs/:path',
+      text: '在 GitHub 上編輯此頁面'
+    },
+
+    lastUpdated: {
+      text: '最後更新',
+      formatOptions: {
+        dateStyle: 'short',
+      }
+    }
+    
   }
 })
