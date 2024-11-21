@@ -7,6 +7,7 @@ export default defineConfig({
   lastUpdated: true, 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    i18nRouting: false,
     // logo需要更改
     logo: 'https://vitepress.dev/vitepress-logo-mini.svg',
 
@@ -37,7 +38,15 @@ export default defineConfig({
         ],
         activeMatch: "/ticketing-site/",
       },
-      { text: '協助編輯', link: '/wiki/markdown-examples' }
+      {
+        text: "協助編輯",
+        items: [
+          { text: 'Markdown Examples', link: '/wiki/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/wiki/api-examples' },
+          { text: '編輯名單', link: '/about' },
+        ],
+        activeMatch: "/ticketing-site/",
+      }
     ],
 
     sidebar: [
@@ -69,8 +78,6 @@ export default defineConfig({
         items: [
           { text: '抽選相關名詞', link: '/wiki/lottery' },
           { text: 'Live場地', link: '/wiki/dome' },
-          { text: 'Markdown Examples', link: '/wiki/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/wiki/api-examples' }
         ]
       },
       {
