@@ -15,9 +15,14 @@
 
 ## 開發
 
-`clone` 至本地後，運行以下指令
+請先安裝 [git](https://git-scm.com/) 及 [node.js](https://nodejs.org/zh-tw) 環境，node版本建議使用v20或v22等LTS版本。
+
+完成環境安裝後執行以下指令
 
 ```sh
+cd < 自訂資料夾位置，如 C:\Users\Public\Downloads >
+git clone https://github.com/canaria3406/live-wiki.git
+cd live-wiki
 npm install
 npm run dev
 ```

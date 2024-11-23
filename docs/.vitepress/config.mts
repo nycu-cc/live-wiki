@@ -33,13 +33,11 @@ export default defineConfig({
         text: "抽票的準備事項",
         items: [
           { text: '1. 你的名字', link: '/what-you-need-to-do/your-name' },
-          { text: '2. 台灣地址', link: '/what-you-need-to-do/taiwan-address' },
-          { text: '3. 日本地址', link: '/what-you-need-to-do/japan-address' },
-          { text: '4. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
-          { text: '5. 台灣信用卡', link: '/what-you-need-to-do/taiwan-credit-card' },
-          { text: '6. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
-          { text: '7. 日本手機帳號', link: '/what-you-need-to-do/japan-phone-account' },
-          { text: '8. 其他', link: '/what-you-need-to-do/others' }
+          { text: '2. 你的地址', link: '/what-you-need-to-do/your-address' },
+          { text: '3. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
+          { text: '4. 台灣信用卡', link: '/what-you-need-to-do/taiwan-credit-card' },
+          { text: '5. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
+          { text: '6. 其他可能會用到的', link: '/what-you-need-to-do/others' }
         ],
         activeMatch: "/what-you-need-to-do/",
       },
@@ -70,13 +68,11 @@ export default defineConfig({
         text: '一、抽票的準備事項',
         items: [
           { text: '1. 你的名字', link: '/what-you-need-to-do/your-name' },
-          { text: '2. 台灣地址', link: '/what-you-need-to-do/taiwan-address' },
-          { text: '3. 日本地址', link: '/what-you-need-to-do/japan-address' },
-          { text: '4. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
-          { text: '5. 台灣信用卡', link: '/what-you-need-to-do/taiwan-credit-card' },
-          { text: '6. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
-          { text: '7. 日本手機帳號', link: '/what-you-need-to-do/japan-phone-account' },
-          { text: '8. 其他', link: '/what-you-need-to-do/others' }
+          { text: '2. 你的地址', link: '/what-you-need-to-do/your-address' },
+          { text: '3. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
+          { text: '4. 台灣信用卡', link: '/what-you-need-to-do/taiwan-credit-card' },
+          { text: '5. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
+          { text: '6. 其他可能會用到的', link: '/what-you-need-to-do/others' }
         ]
       },
       {
@@ -90,7 +86,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '三、常見問題',
+        text: '常見問題',
         items: [
           { text: '抽選相關名詞', link: '/wiki/lottery' },
           { text: 'Live場地', link: '/wiki/dome' },
