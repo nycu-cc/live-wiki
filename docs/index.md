@@ -6,7 +6,7 @@ hero:
   name: "Live-wiki (仮)"
   tagline: "好想到日本看LIVE！好想參加現地活動！\n你是否曾經有過這種念頭，但不知道該從何準備呢？在這裡我們彙整了所有抽選需要做的準備、抽選流程、付款方式、取票流程及其他需要注意的事項，希望能幫助你順利抽到並參加現地活動。"
   image:
-    src: "/public/pic/cover.png"
+    src: "/pic/cover.png"
   actions:
     - theme: brand
       text: 瀏覽wiki
