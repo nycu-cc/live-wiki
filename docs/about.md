@@ -13,7 +13,8 @@ const members = [
     name: 'canaria3406',
     title: 'Creator',
     links: [
-      { icon: 'github', link: 'https://github.com/canaria3406' }
+      { icon: 'github', link: 'https://github.com/canaria3406' },
+      { icon: 'discord', link: 'https://discord.com/users/242927802557399040' }
     ]
   }
 ]
