@@ -90,6 +90,7 @@ export default defineConfig({
         items: [
           { text: '抽選相關名詞', link: '/wiki/lottery' },
           { text: 'Live場地', link: '/wiki/dome' },
+          { text: '怎麼打電話', link: '/wiki/how-to-make-a-call' },
         ]
       },
       {
