@@ -35,9 +35,8 @@ export default defineConfig({
           { text: '1. 你的名字', link: '/what-you-need-to-do/your-name' },
           { text: '2. 你的地址', link: '/what-you-need-to-do/your-address' },
           { text: '3. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
-          { text: '4. 台灣信用卡', link: '/what-you-need-to-do/taiwan-credit-card' },
-          { text: '5. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
-          { text: '6. 其他可能會用到的', link: '/what-you-need-to-do/others' }
+          { text: '4. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
+          { text: '5. 其他可能會用到的', link: '/what-you-need-to-do/others' }
         ],
         activeMatch: "/what-you-need-to-do/",
       },
@@ -70,9 +69,8 @@ export default defineConfig({
           { text: '1. 你的名字', link: '/what-you-need-to-do/your-name' },
           { text: '2. 你的地址', link: '/what-you-need-to-do/your-address' },
           { text: '3. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
-          { text: '4. 台灣信用卡', link: '/what-you-need-to-do/taiwan-credit-card' },
-          { text: '5. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
-          { text: '6. 其他可能會用到的', link: '/what-you-need-to-do/others' }
+          { text: '4. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
+          { text: '5. 其他可能會用到的', link: '/what-you-need-to-do/others' }
         ]
       },
       {
