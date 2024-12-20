@@ -1,6 +1,6 @@
 ---
 aside: false
-title: 編輯名單
+title: 本站編輯名單
 tags:
     - 貢獻
 ---
@@ -11,7 +11,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/27627468?v=4',
     name: 'canaria3406',
-    title: 'Creator',
+    title: '霧子P',
     links: [
       { icon: 'github', link: 'https://github.com/canaria3406' },
       { icon: 'discord', link: 'https://discord.com/users/242927802557399040' }
@@ -27,9 +27,33 @@ const members = [
       { icon: 'twitter', link: 'https://x.com/Nickche63208056' },
     ],
   },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/62000156',
+    name: 'Mr-Smilin',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/Mr-Smilin' },
+    ],
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/41343762',
+    name: 'pon50895',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/pon50895' },
+    ],
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/174360710',
+    name: 'jeff5252882',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/jeff5252882' },
+    ],
+  },
 ]
 </script>
 
-# 編輯名單
+# 本站編輯名單
 
 <VPTeamMembers size="small" :members="members" />

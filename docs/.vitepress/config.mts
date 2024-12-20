@@ -54,53 +54,73 @@ export default defineConfig({
       {
         text: "協助編輯",
         items: [
-          { text: 'Markdown Examples', link: '/wiki/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/wiki/api-examples' },
-          { text: '編輯名單', link: '/about' },
+          { text: '如何開始協作', link: '/develop/1-start' },
+          { text: '設定檔項目說明', link: '/develop/2-vitepress' },
+          { text: '進階本地運行', link: '/develop/3-run-local' },
+          { text: 'Markdown 基本知識', link: '/develop/4-example' },
+          { text: 'Markdown 常見用法', link: '/develop/5-template' },
+          { text: '本站編輯名單', link: '/about' },
         ],
         activeMatch: "/ticketing-site/",
       }
     ],
 
-    sidebar: [
-      {
-        text: '一、抽票的準備事項',
-        items: [
-          { text: '1. 你的名字', link: '/what-you-need-to-do/your-name' },
-          { text: '2. 你的地址', link: '/what-you-need-to-do/your-address' },
-          { text: '3. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
-          { text: '4. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
-          { text: '5. 其他可能會用到的', link: '/what-you-need-to-do/others' }
-        ]
-      },
-      {
-        text: '二、售票網站相關',
-        items: [
-          { text: 'e+（イープラス）', link: '/ticketing-site/eplus' },
-          { text: 'LAWSON TICKET（ローソンチケット）', link: '/ticketing-site/lawson-ticket' },
-          { text: 'TICKET PIA（チケットぴあ）', link: '/ticketing-site/ticket-pia' },
-          { text: 'Rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
-          { text: 'ASOBI TICKET', link: '/ticketing-site/asobi-ticket' }
-        ]
-      },
-      {
-        text: '常見問題',
-        items: [
-          { text: '抽選相關名詞', link: '/wiki/lottery' },
-          { text: 'Live場地', link: '/wiki/dome' },
-          { text: '怎麼打電話', link: '/wiki/how-to-make-a-call' },
-        ]
-      },
-      {
-        text: '附錄：第一次出國？',
-        items: [
-          { text: '1. 護照申請', link: '/first-time/passport' },
-          { text: '2. 機票購買', link: '/first-time/flight-ticket' },
-          { text: '3. 其他準備事項', link: '/first-time/others' },
-          { text: '4. 行李檢核', link: '/first-time/baggage' },
-        ]
-      }
-    ],
+    sidebar: {
+      "/develop/" : [
+        {
+          text: '協助編輯',
+          items: [
+            { text: '如何開始協作', link: '/develop/1-start' },
+            { text: '設定檔項目說明', link: '/develop/2-vitepress' },
+            { text: '進階本地運行', link: '/develop/3-run-local' },
+            { text: 'Markdown 基本知識', link: '/develop/4-example' },
+            { text: 'Markdown 常見用法', link: '/develop/5-template' },
+          ]
+        }
+      ],
+      "/first-time/" : [
+        {
+          text: '附錄：第一次出國？',
+          items: [
+            { text: '1. 護照申請', link: '/first-time/passport' },
+            { text: '2. 機票購買', link: '/first-time/flight-ticket' },
+            { text: '3. 其他準備事項', link: '/first-time/others' },
+            { text: '4. 行李檢核', link: '/first-time/baggage' },
+          ]
+        }
+      ],
+      "/" : [
+        {
+          text: '一、抽票的準備事項',
+          items: [
+            { text: '1. 你的名字', link: '/what-you-need-to-do/your-name' },
+            { text: '2. 你的地址', link: '/what-you-need-to-do/your-address' },
+            { text: '3. 日本手機門號', link: '/what-you-need-to-do/japan-phone-number' },
+            { text: '4. 日本信用卡', link: '/what-you-need-to-do/japan-credit-card' },
+            { text: '5. 其他可能會用到的', link: '/what-you-need-to-do/others' }
+          ]
+        },
+        {
+          text: '二、售票網站相關',
+          items: [
+            { text: 'e+（イープラス）', link: '/ticketing-site/eplus' },
+            { text: 'LAWSON TICKET（ローソンチケット）', link: '/ticketing-site/lawson-ticket' },
+            { text: 'TICKET PIA（チケットぴあ）', link: '/ticketing-site/ticket-pia' },
+            { text: 'Rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
+            { text: 'ASOBI TICKET', link: '/ticketing-site/asobi-ticket' }
+          ]
+        },
+        {
+          text: '常見問題',
+          items: [
+            { text: '抽選相關名詞', link: '/wiki/lottery' },
+            { text: 'Live場地', link: '/wiki/dome' },
+            { text: '怎麼打電話', link: '/wiki/how-to-make-a-call' },
+          ]
+        }
+      ],
+
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/canaria3406/live-wiki' },
