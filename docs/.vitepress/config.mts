@@ -48,7 +48,7 @@ export default defineConfig({
           { text: 'TICKET PIA（チケットぴあ）', link: '/ticketing-site/ticket-pia' },
           { text: 'Rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
           { text: 'ASOBI TICKET', link: '/ticketing-site/asobi-ticket' },
-          { text: '7 ticket（セブンチケット）', link: '/ticketing-site/7-ticket' },
+          { text: '7 ticket（セブンチケット）', link: '/ticketing-site/7-ticket' }
         ],
         activeMatch: "/ticketing-site/",
       },
@@ -108,7 +108,8 @@ export default defineConfig({
             { text: 'LAWSON TICKET（ローソンチケット）', link: '/ticketing-site/lawson-ticket' },
             { text: 'TICKET PIA（チケットぴあ）', link: '/ticketing-site/ticket-pia' },
             { text: 'Rakuten ticket（楽天チケット）', link: '/ticketing-site/rakuten-ticket' },
-            { text: 'ASOBI TICKET', link: '/ticketing-site/asobi-ticket' }
+            { text: 'ASOBI TICKET', link: '/ticketing-site/asobi-ticket' },
+            { text: '7 ticket（セブンチケット）', link: '/ticketing-site/7-ticket' }
           ]
         },
         {

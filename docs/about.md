@@ -51,6 +51,14 @@ const members = [
       { icon: 'github', link: 'https://github.com/jeff5252882' },
     ],
   },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/87636172',
+    name: 'kevinwei1029',
+    title: '楠木燈的狗',
+    links: [
+      { icon: 'github', link: 'https://github.com/kevinwei1029' },
+    ],
+  },
 ]
 </script>
 
