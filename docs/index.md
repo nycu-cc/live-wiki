@@ -19,8 +19,8 @@ hero:
       link: /first-time/passport
 
 features:
-  - title: 網站重新建構中
-    details: 如有興趣協助編輯，<a href="https://discord.gg/QBwjpHcMyw">請點我至 Discord</a> 索取編輯權限。
+  - title: 歡迎各位協助編輯
+    details: 如有興趣協助編輯，<a href="https://discord.gg/NAZ7JGzat7">請點我至 Discord</a> 索取編輯權限。
   # - title: 網站遷移中
   #   details: 如有興趣協助編輯，請至 Discord 索取編輯權限。
   # - title: 網站遷移中

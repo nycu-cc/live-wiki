@@ -44,7 +44,7 @@ tags:
 
 選擇以下任一步驟
 
--   [加入 Discord](https://discord.gg/QBwjpHcMyw)
+-   [加入 Discord](https://discord.gg/NAZ7JGzat7)
 
 提供你建立 Github 的信箱  
 由我這邊開啟協作權限

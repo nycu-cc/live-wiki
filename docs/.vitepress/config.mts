@@ -127,7 +127,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/canaria3406/live-wiki' },
-      { icon: 'discord', link: 'https://discord.gg/QBwjpHcMyw' }
+      { icon: 'discord', link: 'https://discord.gg/NAZ7JGzat7' }
     ],
 
     footer: {
