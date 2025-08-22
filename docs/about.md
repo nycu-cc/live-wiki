@@ -22,7 +22,7 @@ const members = [
     name: 'kevinwei1029',
     title: '楠木燈的狗',
     links: [
-      { icon: 'github', link: 'https://github.com/kevinwei1029' },
+      { icon: 'github', link: 'https://kevinwei1029.github.io' },
     ],
   },
   {
