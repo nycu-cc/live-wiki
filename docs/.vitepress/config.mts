@@ -15,10 +15,10 @@ export default defineConfig({
     // 需要修改網站名稱、說明及縮圖
     ['meta', { property: 'og:title', content: 'Live-wiki (仮)' }],
     ['meta', { property: 'og:description', content: 'Overseas concert ticketing guide.' }],
-    ['meta', { property: 'og:site_name', content: 'canaria.cc' }],
+    ['meta', { property: 'og:site_name', content: 'nycu.cc' }],
     ['meta', { property: 'og:image', content: 'https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode-Thick.png' }],
     ['meta', { property: 'og:image:type', content: 'image/png' }],
-    ['meta', { property: 'og:url', content: 'https://live.canaria.cc/' }],
+    ['meta', { property: 'og:url', content: 'https://live.nycu.cc/' }],
     //['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': '' }]
   ],
   themeConfig: {
@@ -126,17 +126,17 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/canaria3406/live-wiki' },
+      { icon: 'github', link: 'https://github.com/nycu-cc/live-wiki' },
       { icon: 'discord', link: 'https://discord.gg/NAZ7JGzat7' }
     ],
 
     footer: {
       // message: 'Released under the MIT License.',
-      copyright: 'canaria © 2024'
+      copyright: 'nycu.cc © 2025'
     },
 
     editLink: {
-      pattern: 'https://github.com/canaria3406/live-wiki/tree/main/docs/:path',
+      pattern: 'https://github.com/nycu-cc/live-wiki/tree/main/docs/:path',
       text: '在 GitHub 上編輯此頁面'
     },
 

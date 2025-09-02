@@ -74,4 +74,4 @@ Ref: https://x.com/zwycoder/status/1833660679250977054
 
 ## 延伸閱讀
 
-有了自己的日本電話號碼之後，除了票務系統跟虛擬日本信用卡之外，還可以拿來做什麼呢？請看這一篇：https://live.canaria.cc/wiki/jp-accounts.html
+有了自己的日本電話號碼之後，除了票務系統跟虛擬日本信用卡之外，還可以拿來做什麼呢？請看這一篇：https://live.nycu.cc/wiki/jp-accounts.html

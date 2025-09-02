@@ -4,8 +4,8 @@
 </h1>
 
 <p align="center">
-    <img src="https://img.shields.io/github/license/canaria3406/live-wiki?style=flat-square">
-    <img src="https://img.shields.io/github/stars/canaria3406/live-wiki?style=flat-square">
+    <img src="https://img.shields.io/github/license/nycu-cc/live-wiki?style=flat-square">
+    <img src="https://img.shields.io/github/stars/nycu-cc/live-wiki?style=flat-square">
 </p>
 
 仍在重新建構中
@@ -21,7 +21,7 @@
 
 ```sh
 cd < 自訂資料夾位置，如 C:\Users\Public\Downloads >
-git clone https://github.com/canaria3406/live-wiki.git
+git clone https://github.com/nycu-cc/live-wiki.git
 cd live-wiki
 npm install
 npm run dev

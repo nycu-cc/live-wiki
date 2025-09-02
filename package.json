@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/canaria3406/live-wiki.git"
+    "url": "https://github.com/nycu-cc/live-wiki.git"
   },
   "type": "module",
-  "author": "canaria3406",
+  "author": "nycu-cc",
   "license": "MIT",
-  "homepage": "https://github.com/canaria3406",
+  "homepage": "https://github.com/nycu-cc",
   "devDependencies": {
     "vitepress": "^1.5.0"
   }
